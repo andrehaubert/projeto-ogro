@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200&display=swap');
+
+:root {
+    --cor0: #F2A20C;
+    --cor1: #D97A07;
+    --cor2: #D95204;
+    --cor3: #731702;
+    --cor4: #3F853B;
+    --cor5: #260101;
+
+    --fonte-padrao: 'Didatic Gothic', Verdana, sans-serif;
+    --fonte-destaque:'Fruktur', sans-serif;
+    --fonte-subtitulo:'Gotu', sans-serif;
+    --fonte-historia: 'Grenze Gotisch', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    background-color: #f2a20c67;
+    font-family: var(--fonte-padrao);
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    max-height: 150px;
+    margin: auto;
+    margin-top: -30px;
+    padding-top:40px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor5);
+    font-size: 2.4em;
+}
+
+header.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.titulo {
+    color: #4e090993;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+
+h2 {
+    background-image: radial-gradient(#51c44baf, transparent);
+    font-family: var(--fonte-historia);
+    font-size: 2em;
+    text-align: center;
+}
+
+.historia {
+    background-color: #f2a20c4f;
+    padding: 10px;
+}
+
+nav {
+    background-color: #d97a0798;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.089);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav > a {
+    color: var(--cor3);
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: .5s;
+    font-family: var(--fonte-historia);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+
+nav :hover {
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 20px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-subtitulo);
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow:  2px 2px 2px rgba(0, 0, 0, 0.281);
+    background-image: radial-gradient(#51c44baf, transparent);
+}
+
+main p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 20px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main img {
+    width: 70%;
+    margin: auto;
+    display: block;
+
+}
+
+.visita {
+    text-align: center;
+    font-family: var(--fonte-subtitulo);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.social {
+    display: block;
+    max-width: 30px;
+}
+
+#facebook {
+    max-width: 50px;
+}
+
+.rede {
+    text-align: center;
+}
+.rede > a { 
+    text-decoration: none;
+    font-family: var(--fonte-subtitulo);
+    transition-duration: .5s;
+}
+
+.rede > a:hover {
+    background-color: #3F853B;
+    color: white;
+    border-radius: 10px;
+}
+
+.rede > p {
+    font-family: var(--fonte-subtitulo);
+}
+
+main > ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    font-family: var(--fonte-subtitulo);
+    font-weight: bold;
+}
+
+picture {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.ogro2 {
+    max-width: 200px;
+}
+
+footer {
+    color: #532104;
+    text-align: center;
+    padding: 0px 5px 10px 5px;
+    font-weight: bold;
+    
+}
+
+
+ 
